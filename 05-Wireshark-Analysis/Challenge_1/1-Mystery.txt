@@ -1,0 +1,44 @@
+The title of the layer is the HTTP protocol.
+
+HTTP(Hyper Text Transfer Protocol) is mainly used to access data in the world wide web, (WWW).
+Http is a repository of information spread all over the world and are linked together.
+Http can transfer data in the form of plain text, hyper text, audio and video.
+Http also utilizes the TCP(Transport Control Protocol) connection to send client request and replies from a server.
+
+The first steps were establishing a TCP Hand Shake which is the connection between source and destination.
+
+For example: Receiver acknowledges segments that it got. 
+Once acknowledged, a sender can tell which segments were successfully received therefore a sender can determine what should be sent 
+
+
+
+		Example of the TCP transmission: 
+		
+						----------SYN--------------->
+					  
+						<---------SYN, ACK-----------
+
+
+			SENDER								RECEIVER
+						-----------ACK-------------->
+
+
+After TCP handshake connection were establish then there was a Post request for a .html. 
+Then it was acknowledged and then there were more request for .html in wordpress.
+Then after server acknowledged all request then Host sent a Ack to close.
+Server then replied back with Fin and Ack to Host and then the Host sent another Ack for the tear down to close.
+
+			HOST			----------ACK------------->		SERVER
+						<-------FIN,ACK------------		
+						----------ACK------------->	
+
+
+The Source was requesting data from the destination. With the source having an IP: 172.16.16.128 and the Destination with the IP: 69.163.176.56.
+
+The topic was about requesting for an HTML document for Wordpress to configure the comment section of the webpage application. The source was using port 1989 in the TCP protocol and the destination was on port 80 on the TCP. 
+
+The total data that were sent in this transmission was a total of 16,604 bytes.
+
+
+
+	

@@ -1,0 +1,12 @@
+The title of this application-layer is the "SMTP" protocol.
+
+This protocol is widely use to send e-Mail from the authors mail program to the mail server and between servers too. A more clear definition of SMTP:
+
+	SMTP: Stands for, "Simple Mail Transfer Protocol." This is the protocol used for sending e-mail over the Internet. Your e-mail client (such as Outlook, Eudora, or Mac OS X Mail) uses SMTP to send a message to the mail server, and the mail server uses SMTP to relay that message to the correct receiving mail server. Basically, SMTP is a set of commands that authenticate and direct the transfer of electronic mail. 
+
+The conversation in the exchange across the network was basically coming within the musecurity.com and sending from one employee to another with he companies email server. In between transmission there were some rest point of transmission. Source was IP: 127.0.0.1 port : 32508 and same for destination IP:127.0.0.1. port: 25
+
+The data that was transmitted was a request for email to reply back once the greeting requested email was sent with a greeting 'HELO musecurity.com' then the email server replied back acknowledging it's ready. 
+
+
+There were only 480 bits of data transmitted.

@@ -1,0 +1,17 @@
+The title of this application-layer protocol is "FTP" File transfer protocol.
+
+FTP is pretty much like the HTTP transfers through a web browser. FTP provides a framework to transfer information between two networked computers. The FTP does operates on two different TCP ports: 20 and 21. FTP ports 20 and 21 must both be open on the network for successful file transfers.
+
+
+
+The user requested data was on port 2555 with the IP: 172.16.16.128 and the destination with IP: 172.16.16.121 on port:21
+
+The user is requesting a change in type for Type A to be changed to Type I. It's requesting to create a backup folder in the current directory. Then it requested to store a .csv file inside the backup folder in the current directory.
+
+After all data was transmitted then the user requested close the connection with
+
+[ACK]
+RESPONDER WITH [FIN, ACK]
+USER THEN FINALIZED WITH AN [ACK] WHICH ACKNOWLEDGED THE CONNECTION SHUTDOWN.
+
+
